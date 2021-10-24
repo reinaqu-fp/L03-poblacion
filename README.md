@@ -1,4 +1,4 @@
-# L03-Poblacion mundial
+# L03-Población mundial
 
 @author: Toñi Reina
 
@@ -29,3 +29,9 @@ En este proyecto trabajaremos con datos de población mundial, representados med
 * **muestra_evolucion_poblacion(poblaciones, pais)**: toma una lista de tuplas (nombre_pais, cod_pais, anyo, num_habitantes) y genera un gráfico con la evolución de la población del pais dado como parámetro. El pais se puede dar con su nombre completo o con su código.
 * **muestra_comparativa_paises_anyo(poblaciones, anyo, paises)**: toma una lista de tuplas (nombre_pais, cod_pais, anyo, num_habitantes), un año y un grupo de paises y genera un gráfico de barras con la población de esos países en el año dado como parámetro.
 
+## Ayuda para el uso de matplotlib
+
+Para digujar un diagrama de barras usando la librería `matplotlib` puedes usar un trozo de código similar al siguiente, teniendo en cuenta que `titulo` debe ser una variable que contenga el título que se le va a dar al gráfico, `l_habitantes` una lista con números que representan la altura que deben tener las distintas barras del gráfico  y `l_paises` una lista con las etiquetas que para cada barra aparececerán en el eje X, que en el contexto de este proyecto serán nombres de paises.s
+     
+ ```python     plt.title(titulo))    indice = range(len(l_paises)))    plt.bar(indice, l_habitantes))    plt.xticks(indice, l_paises, fontsize=8))    plt.show()
+````
