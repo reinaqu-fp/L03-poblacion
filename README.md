@@ -1,6 +1,6 @@
 # L03-Población mundial
 
-@author: Toñi Reina
+AUTORA: Toñi Reina
 
 REVISORES: José Antonio Troyano, Daniel Mateos, Mariano González
 
